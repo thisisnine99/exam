@@ -1,0 +1,42 @@
+body, ul, li {
+  margin:0;
+  list-style:none;
+  padding:0;
+}
+a {
+  text-decoration:none;
+  color:inherit;
+}
+
+.top {
+    background:aquamarine;
+    padding:10px;
+}
+.top .logo {
+    font-size:80px;
+    font-weight:bold;
+}
+
+.content_wrap {
+    display:flex;
+}
+
+.left {
+    background:indianred;
+    height:900px;
+    width:15%;
+}
+.left > h1 {
+    display:flex;
+    justify-content:center;
+}
+.left > ul {
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+}
+
+.content {
+    background:lightblue;
+    width:85%;
+}
